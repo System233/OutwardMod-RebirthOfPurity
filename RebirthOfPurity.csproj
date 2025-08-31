@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <!-- 输出 DLL 到 bin/Debug/net472/，可以直接拷贝到 BepInEx/plugins -->
+    <OutputType>Library</OutputType>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Core" Version="5.4.21" />
+    <PackageReference Include="Outward.GameLibs" Version="2022.5.18-r.0" />
+    <Reference Include="Rewired_Core">
+      <HintPath>../Managed/Rewired_Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

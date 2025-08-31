@@ -1,0 +1,9 @@
+{
+    "name": "Rebirth_Of_Purity",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/System233/OutwardMod-RebirthOfPurity",
+    "description": "Allows players to cleanse **Corruption** by sleeping or upon death.",
+    "dependencies": [
+        "BepInEx-BepInExPack_Outward-5.4.19"
+    ]
+}
